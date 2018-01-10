@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev
+sudo apt-get -y install git build-essential cmake libuv1-dev libmicrohttpd-dev
 sudo git clone https://github.com/xmrig/xmrig.git
 cd xmrig
 mkdir build
