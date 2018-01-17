@@ -5,3 +5,4 @@ sudo wget https://github.com/JayDDee/cpuminer-opt/archive/v3.7.9.tar.gz
 tar xvzf v3.7.9.tar.gz 
 cd cpuminer-opt-3.7.9 
 sudo ./build-allarch.sh 
+cd cpuminer-opt-3.7.9
