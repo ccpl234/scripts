@@ -8,4 +8,5 @@ cd build
 sudo cmake ..
 sudo make
 sudo sysctl -w vm.nr_hugepages=128
-sudo ./xmrig/build/xmrig -o us-east.cryptonight-hub.miningpoolhub.com:20580 -t 16 -u ccpl.scripttest -p password --donate-level 1
+cd bin
+sudo ./xmrig -o us-east.cryptonight-hub.miningpoolhub.com:20580 -t 16 -u ccpl.scripttest -p password --donate-level 1
