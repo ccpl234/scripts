@@ -7,5 +7,5 @@ sudo apt-get -y update
 sudo apt-get -y install cuda-drivers
 mkdir eth
 cd eth
-sudo wget https://github.com/trexminer/T-Rex/releases/download/0.19.5/t-rex-0.19.5-linux-cuda10.0.tar.gz
-sudo tar -xvf t-rex-0.19.5-linux-cuda10.0.tar.gz
+sudo wget http://trex-miner.com/download/t-rex-0.20.3-linux.tar.gz
+sudo tar -xvf t-rex-0.20.3-linux.tar.gz
