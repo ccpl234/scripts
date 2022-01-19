@@ -1,4 +1,4 @@
-sudo apt install -y nvidia-drivers-470
+sudo apt install -y nvidia-driver-470
 sudo nvidia-smi
 mkdir eth
 cd eth
